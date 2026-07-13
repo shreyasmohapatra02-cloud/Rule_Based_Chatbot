@@ -1,4 +1,4 @@
-# Rule-Based Chatbot Web
+# Rule-Based Chatbot
 
 This is a simple Rule-Based Chatbot developed using Python and Flask for the CodSoft AI Internship.
 
