@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ botname }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>🤖 {{ botname }}</h2>
+            <p>Rule-Based Chatbot | CodSoft Task 1</p>
+        </div>
+        <div class="chat-box" id="chatbox">
+            <div class="bot-msg">Hello! Welcome to {{ botname }}. Type your question and I will give your answer.</div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type a message..." autocomplete="off">
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
